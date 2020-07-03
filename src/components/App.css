@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  margin-top: 50px;
 }
 
 .App-logo {
@@ -35,4 +36,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+.header-new{
+  position: fixed;
+  top:0;
+  z-index: 999999;
+  width: 100%;
+}
+.container{
+  margin-top:100px;
 }
